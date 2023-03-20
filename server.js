@@ -105,7 +105,7 @@ apps.use(ctx => {
     ctx.body = 'Hello Koa';
 });
 
-const PORT = 8800
+const PORT = 3306;
 
 apps.listen(process.env.PORT || PORT, () => {console.log("Server port: " + PORT)});
 
