@@ -157,10 +157,10 @@ app.use(express.urlencoded({extended: false}))
 
 //Create connection with database
 const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    databases: 'just_do_it',
-    password: ''
+    host: 'bfjc1mfzqrlbvrfwcd5i-mysql.services.clever-cloud.com',
+    user: 'ubjexexfaxzdm2zy',
+    databases: 'bfjc1mfzqrlbvrfwcd5i',
+    password: 'ubjexexfaxzdm2zy'
 })
 
 conn.connect(err => {
